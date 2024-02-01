@@ -1,0 +1,51 @@
+.dobozA {
+    background-color: lightgreen;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 10vw;
+    height: 2.5vh;
+    margin: 5px 16px;
+    font-size: 1.5vw;
+    display:inline-block;
+    text-align: center;
+}
+
+.dobozB {
+    background-color: cornsilk;
+    border: 3px double brown;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 10vw;
+    height: 2.5vh;
+    margin: 5px 16px;
+    font-size: 1.5vw;
+    display:inline-block;
+    text-align: center;
+}
+
+.dobozC {
+    background-color: lightsalmon;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 10vw;
+    height: 5rem;
+    margin: 5px 16px;
+    font-size: 1.5vw;
+    display:inline-block;
+    text-align: center;
+}
+
+
+#IDtalalat {
+    background-color: lightgoldenrodyellow; 
+    width: 70%; 
+    height: 14rem;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.rosszFeltetel {
+    background-color: red;
+}

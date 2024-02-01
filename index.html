@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>miniKifir</title>
+</head>
+
+<body onload="Kivalogat()">
+    <form action="">
+
+        <fieldset>
+            <legend>Elemek stílusbeállítása</legend>
+            <input type="radio" name="stilusok" id="ID_A" checked="true" onchange="Kivalogat()">
+            <label for="ID_A">A stílus</label>
+            <input type="radio" name="stilusok" id="ID_B" onchange="Kivalogat()">
+            <label for="ID_B">B stílus</label>
+            <input type="radio" name="stilusok" id="ID_C" onchange="Kivalogat()">
+            <label for="ID_C">C stílus</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Leválogatás szó eleji egyez alapján</legend>
+            <label for="IDomazon">OM azonosító:</label>
+            <input type="text" name="_om_azonosito" id="IDomazon" onkeyup="Kivalogat()">
+            <label for="IDnev">Név:</label>
+            <input type="text" name="_nev" id="IDnev" onkeyup="Kivalogat()">
+        </fieldset>
+
+    </form>
+
+    <div>
+        <h2>Szűrés eredménye</h2>
+        <p>Tételek száma:<span id="IDdarab"></span></p>
+        <p>Matematika pontszámok átlaga:<span id="IDmatek"></span></p>
+        <p>Magyar pontszámok átlaga:<span id="IDmagyar"></span></p>
+        <p>Összesített pontszámok átlaga:<span id="IDosszesitett"></span></p>
+    </div>
+
+
+    <div id="IDtalalat">
+    </div>
+
+    <script src="kod.js"></script>
+</body>
+
+</html>
